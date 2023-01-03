@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Components
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 function MainLayout(props) {
   return (
