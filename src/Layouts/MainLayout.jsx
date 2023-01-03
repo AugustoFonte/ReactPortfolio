@@ -7,7 +7,7 @@ import Footer from '../Components/Footer';
 
 function MainLayout(props) {
   return (
-    <div className="MainLayout">
+    <div>
       <Navbar />
       <main>{props.children}</main>
         <div >
