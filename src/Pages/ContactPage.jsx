@@ -1,13 +1,16 @@
 import React from 'react';
+import MainLayout from '../Layouts/MainLayout';
 
 
 
 
 function ContactPage() {
   return (
-    <div>
-        Contact
-    </div>
+    <MainLayout>
+      <div>
+          Contact
+      </div>
+    </MainLayout>
   );
 }
 

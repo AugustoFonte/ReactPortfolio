@@ -1,13 +1,16 @@
 import React from 'react';
+import MainLayout from '../Layouts/MainLayout';
 
 
 
 
 function ResumePage() {
   return (
-    <div>
-        Resume
-    </div>
+    <MainLayout>
+      <div>
+          Resume
+      </div>
+    </MainLayout>
   );
 }
 

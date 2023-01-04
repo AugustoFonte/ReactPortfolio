@@ -1,13 +1,16 @@
 import React from 'react';
+import MainLayout from '../Layouts/MainLayout';
 
 
 
 
 function PortfolioPage() {
   return (
-    <div>
-        Portfolio
-    </div>
+    <MainLayout>
+      <div>
+          Portfolio
+      </div>
+    </MainLayout>
   );
 }
 
