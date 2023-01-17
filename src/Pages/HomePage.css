@@ -1,0 +1,35 @@
+.text {
+    padding-top: 250px;
+    padding-left: 50px;
+    size:50%;
+}
+.mainTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 71px;
+    color: #FFFFFF;
+}
+
+span {
+    color: #F15F5F;
+}
+
+.secundaryTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    color: #F15F5F;
+}
+
+.paragraph {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
