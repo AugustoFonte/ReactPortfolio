@@ -1,7 +1,7 @@
 .text {
     padding-top: 250px;
     padding-left: 50px;
-    size:50%;
+    display:grid;
 }
 .mainTitle {
     font-family: 'Montserrat';

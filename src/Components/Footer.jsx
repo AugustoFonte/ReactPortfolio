@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./footer.css"
 
 
 function Footer() {
   return (
-    <div>Copyright </div>
+    <div className="footer">Copyright </div>
   );
 }
 
