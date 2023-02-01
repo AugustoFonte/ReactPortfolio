@@ -1,8 +1,52 @@
+/* Mobile */ 
+.text {
+    padding-top: 250px;
+    margin: 20px;
+    
+    
+}
+
+.mainTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+span {
+    color: #F15F5F;
+}
+
+.secundaryTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 55px;
+    color: #F15F5F;
+}
+
+.paragraph {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding-right: 45px;
+}
+
+/*Tablet + Desktop */
+
+@media only screen and (min-width: 768px) {
 .text {
     padding-top: 250px;
     padding-left: 50px;
-    display:grid;
+    
 }
+
 .mainTitle {
     font-family: 'Montserrat';
     font-style: normal;
@@ -32,4 +76,5 @@ span {
     font-size: 28px;
     line-height: 34px;
     color: #FFFFFF;
+}
 }

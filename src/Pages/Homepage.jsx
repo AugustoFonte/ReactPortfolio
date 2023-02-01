@@ -9,7 +9,7 @@ function HomePage() {
   return (
     <MainLayout>
       <div>
-          <div className="text">
+          <div className="text col col-5">
             <h1 className="mainTitle">Hey, <span>Augusto Fonte</span> Here!</h1>
             <h2 className="secundaryTitle">A Fullstack Developer</h2>
             <p className="paragraph">I'm on my journey to become fullstack developer and also i'm a designer.</p>
