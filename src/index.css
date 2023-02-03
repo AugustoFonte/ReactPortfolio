@@ -206,7 +206,7 @@ span {
   padding-right: 45px;
 }
 
-/*Tablet + Desktop */
+/* Tablet + Desktop */
 
 @media only screen and (min-width: 768px) {
   .flex {

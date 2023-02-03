@@ -15,7 +15,7 @@ function Navbar() {
             <Link className="link" to="/resume">RESUME</Link>
           </li>
           <li>
-            <Link className="link" to="/about">PORTFOLIO</Link>
+            <Link className="link" to="/portfolio">PORTFOLIO</Link>
           </li>
           <li>
             <Link className="link" to="/contact">CONTACT</Link>
