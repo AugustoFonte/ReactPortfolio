@@ -1,8 +1,26 @@
 [
     {
-      "projecto": "TITULO",
+      "title": "TITULO",
       "github": "LINK",
-      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in maximus mauris. Nam rutrum metus a justo molli eleifend. Suspendisse posuere. ",
-      "linguas": "HTML CSS JS"
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in maximus mauris. Nam rutrum metus a justo molli eleifend. Suspendisse posuere. ",
+      "code": "HTML CSS JS"
+     },
+     {
+      "title": "TITULO",
+      "github": "LINK",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in maximus mauris. Nam rutrum metus a justo molli eleifend. Suspendisse posuere. ",
+      "code": "HTML CSS JS"
+     },
+     {
+      "title": "TITULO",
+      "github": "LINK",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in maximus mauris. Nam rutrum metus a justo molli eleifend. Suspendisse posuere. ",
+      "code": "HTML CSS JS"
+     },
+     {
+      "title": "TITULO",
+      "github": "LINK",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in maximus mauris. Nam rutrum metus a justo molli eleifend. Suspendisse posuere. ",
+      "code": "HTML CSS JS"
      }
 ]
