@@ -5,7 +5,8 @@ import PropTypes from "prop-types";
 
 function PortfolioCard() {
   return (
-    <Link to="{props.github}">
+    
+      <Link>
         <div className="box">
             <div>{props.github}</div>
             <h4>{props.title}</h4>
@@ -13,8 +14,8 @@ function PortfolioCard() {
             <div>{props.code}</div>
         </div>
     
-    
-  </Link>
+        </Link>  
+  
   );
 }
 
