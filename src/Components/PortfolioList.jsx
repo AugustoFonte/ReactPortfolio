@@ -5,13 +5,16 @@ import PortfolioCard from './PortfolioCard';
 
 
 function PortfolioList() {
+
+    console.log(portfolio)
+    
   return (
     
       <div >
-        <ul>
+        <ul className="flex">
           {portfolio.map((data) => (
             <li key={data.title}>
-              <PortfolioCard
+              <PortfolioCard 
                 title={data.title}
                 text={data.text}
                 github={data.github}

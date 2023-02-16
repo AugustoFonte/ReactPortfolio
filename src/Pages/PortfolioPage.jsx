@@ -8,7 +8,7 @@ import MainLayout from '../Layouts/MainLayout';
 function PortfolioPage() {
   return (
     <MainLayout>
-      <PortfolioList />
+      <PortfolioList /> 
     </MainLayout>
   );
 }

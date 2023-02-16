@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import HomePage from "./Pages/HomePage";
 import ResumePage from "./Pages/ResumePage";
-import ContactPage from "./Pages/ContactPage";
+import AboutMe from './Pages/AboutMe';
 import PortfolioPage from "./Pages/PortfolioPage";
 
 
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/resume" element={<ResumePage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/about" element={<AboutMe />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
       </Routes>
     </BrowserRouter>

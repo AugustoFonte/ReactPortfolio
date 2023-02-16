@@ -12,14 +12,15 @@ function Navbar() {
             <Link className="link" to="/">HOME</Link>
           </li>
           <li>
+            <Link className="link" to="/contact">ABOUT ME</Link>
+          </li>
+          <li>
             <Link className="link" to="/resume">RESUME</Link>
           </li>
           <li>
             <Link className="link" to="/portfolio">PORTFOLIO</Link>
           </li>
-          <li>
-            <Link className="link" to="/contact">CONTACT</Link>
-          </li>
+          
         </ul>
       </div>
     </nav>

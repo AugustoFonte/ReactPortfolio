@@ -1,20 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import "./PortfolioCard.css"
 
-
-function PortfolioCard() {
+function PortfolioCard(props) {
   return (
+
     
-      <Link>
         <div className="box">
             <div>{props.github}</div>
-            <h4>{props.title}</h4>
-            <p>{props.text}</p>
-            <div>{props.code}</div>
+            <h4 className="h4Card">{props.title}</h4>
+            <p className="Pcard">{props.text}</p>
+            <div className="CodeCard">{props.code}</div>
         </div>
     
-        </Link>  
+           
   
   );
 }
