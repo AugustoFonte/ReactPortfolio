@@ -5,14 +5,14 @@ import "./PortfolioCard.css"
 function PortfolioCard(props) {
   return (
 
-    
+      
         <div className="box">
             <div>{props.github}</div>
             <h4 className="h4Card">{props.title}</h4>
             <p className="Pcard">{props.text}</p>
             <div className="CodeCard">{props.code}</div>
         </div>
-    
+      
            
   
   );

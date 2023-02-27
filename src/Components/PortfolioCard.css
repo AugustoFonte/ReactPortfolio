@@ -1,8 +1,40 @@
 .box {
-
+    border: solid;
     background-color: transparent;
     border-color: #f15f5f;
     border-radius: 20%;
-    color:white;
+    color:white; 
+    width: 350px;
+    height: auto;
     
+
+}
+.h4Card {
+    color: #f15f5f;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+}
+.Pcard {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.CodeCard {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
 }

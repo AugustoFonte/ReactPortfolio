@@ -1,7 +1,7 @@
 import React from 'react';
 import portfolio from "../Data/data.json";
 import PortfolioCard from './PortfolioCard';
-
+import "./Portfoliolist.css"
 
 
 function PortfolioList() {
@@ -10,17 +10,19 @@ function PortfolioList() {
     
   return (
     
-      <div >
+      <div className='portfoliolist'>
         <ul className="flex">
           {portfolio.map((data) => (
-            <li key={data.title}>
-              <PortfolioCard 
-                title={data.title}
-                text={data.text}
-                github={data.github}
-                code={data.code}
-                
-              />
+            <li className='portLi' key={data.title}>
+              <div className='col-4 col portfoliocard'>
+                <PortfolioCard 
+                  title={data.title}
+                  text={data.text}
+                  github={data.github}
+                  code={data.code}
+                  
+                />
+              </div>
             </li>
           ))}
         </ul>
