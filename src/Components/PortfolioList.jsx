@@ -6,7 +6,7 @@ import "./Portfoliolist.css"
 
 function PortfolioList() {
 
-    console.log(portfolio)
+    
     
   return (
     
@@ -14,7 +14,7 @@ function PortfolioList() {
         <ul className="flex">
           {portfolio.map((data) => (
             <li className='portLi' key={data.title}>
-              <div className='col-4 col portfoliocard'>
+              <div className='col col-4  portfoliocard'>
                 <PortfolioCard 
                   title={data.title}
                   text={data.text}
