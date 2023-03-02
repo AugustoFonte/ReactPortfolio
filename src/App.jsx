@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import HomePage from "./Pages/HomePage";
-import ResumePage from "./Pages/ResumePage";
-import AboutMe from './Pages/AboutMe';
-import PortfolioPage from "./Pages/PortfolioPage";
+import HomePage from "./Pages/HomePage.jsx";
+import ResumePage from "./Pages/ResumePage.jsx";
+import AboutMe from './Pages/AboutMe.jsx';
+import PortfolioPage from "./Pages/PortfolioPage.jsx";
 
 
 function App() {
